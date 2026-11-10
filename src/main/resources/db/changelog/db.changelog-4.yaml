@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4-product-data
+      author: developer@securitease.com
+      changes:
+        - sqlFile:
+            path: db/changelog/product-data.sql
+            splitStatements: true
